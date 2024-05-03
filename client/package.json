@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
     "@reduxjs/toolkit": "^2.2.3",
+    "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "formik": "^2.4.6",
     "formit": "^0.0.2",
