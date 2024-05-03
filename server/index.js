@@ -30,8 +30,7 @@ app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("common"));
 app.use(bodyParser.json);
-app.use(bodyParser.urlencoded);
-// app.use(cors()); // CORS is etiher configured properly or not initiated ever. Da labai nadi rorrr 😂
+app.use(bodyParser.urlencoded({extended:true}));
 app.use("/assets", express.static(path.join(__dirname, "public/assests")));
 
 /* FILE STORAGE */
